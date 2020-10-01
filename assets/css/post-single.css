@@ -1,5 +1,18 @@
 /* Post single
 -------------------------------------------------- */
+.post-single::before {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin-left: -80px;
+    margin-right: -80px;
+    z-index:-1;
+    background-color: var(--theme);
+    opacity: 0.9;
+    border-radius: 4px;
+}
+
 .post-header {
     margin: 24px auto var(--content-gap) auto
 }
@@ -256,7 +269,7 @@
 .share-buttons {
     margin: 4px 0;
     text-align: right;
-    border-radius: var(--radius);
+    border-radius: 4px;
     margin-top: 24px;
 }
 
