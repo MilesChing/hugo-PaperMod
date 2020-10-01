@@ -14,6 +14,7 @@
     line-height: var(--header-height);
 }
 
+
 .logo,
 .menu {
     margin: auto var(--gap);
@@ -22,6 +23,7 @@
 .logo a {
     font-size: 24px;
     font-weight: 700;
+    font-family: 'Noto Serif SC', serif;
 }
 
 .menu {
@@ -30,6 +32,7 @@
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+    font-family: 'Noto Serif SC', serif;
 }
 
 .menu li+li {

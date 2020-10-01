@@ -141,7 +141,7 @@
 
 .post-content .highlight,
 .post-content pre {
-    margin: auto calc(var(--gap) * -1) 32px calc(var(--gap) * -1);
+    margin: auto 0 32px 0;
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
 }
@@ -188,7 +188,7 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-family: Menlo, Monaco, consolas, Courier, monospace;
     font-size: 0.78em;
     line-height: 1.5;
     background: var(--code-bg);
@@ -209,6 +209,7 @@
     margin: 0 calc(var(--gap) * -1);
     padding: 0 32px;
     border-left: 2px solid var(--primary);
+    opacity: 0.5;
 }
 
 .post-content hr {
@@ -254,8 +255,7 @@
 
 .share-buttons {
     margin: 4px 0;
-    text-align: center;
-    background: var(--code-bg);
+    text-align: right;
     border-radius: var(--radius);
     margin-top: 24px;
 }
@@ -264,7 +264,7 @@
     fill: currentColor;
     height: 30px;
     width: 30px;
-    margin: 0 10px;
+    margin: 0 4px;
 }
 
 .share-button-single:hover svg {
