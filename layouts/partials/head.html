@@ -15,6 +15,8 @@
 {{- if .Site.Params.analytics.google.SiteVerificationTag }}
 <meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}" />
 {{- end}}
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 <!-- Styles -->
 {{- $anoldhope := resources.Get "css/an-old-hope.min.css" | minify }}
 {{- $theme := resources.Get "css/theme-vars.css" | minify }}
