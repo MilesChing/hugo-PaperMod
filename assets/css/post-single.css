@@ -8,9 +8,14 @@
     margin-left: -80px;
     margin-right: -80px;
     z-index:-1;
-    background-color: var(--theme);
-    opacity: 0.9;
     border-radius: 4px;
+    margin-top: 20vh;
+    background-color: var(--theme);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+}
+
+.post-single {
+    margin-top: 20vh;
 }
 
 .post-header {
