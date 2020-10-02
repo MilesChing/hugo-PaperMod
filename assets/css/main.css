@@ -61,9 +61,8 @@
 }
 
 .toc blockquote {
-    border-left: 2px solid;
     margin: 20px;
-    padding: 10px 40px;
+    padding: 0px 40px;
 }
 
 .toc li ul {
