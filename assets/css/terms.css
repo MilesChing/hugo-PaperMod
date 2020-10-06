@@ -1,6 +1,7 @@
 .terms-tags li {
     display: inline-block;
     font-weight: 500;
+    margin-bottom: 8px;
 }
 
 .terms-tags a {
